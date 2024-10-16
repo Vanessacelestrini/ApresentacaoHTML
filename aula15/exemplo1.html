@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-CSS</title>
+</head>
+
+<body>
+    <form action="confrima.html" method="post">
+        <fieldset>
+            <legend>Digite aqui suas informações</legend>
+            <font color="red" size="30" face="verdana"> <b> Nome: </b> </font> <br>
+            <!--maxlength serve para definir numero de caracteres e sizer tamanho da caixa do texto-->
+            <input maxlength="10" size="10" type="text" name="nome" placeholder="Digite aqui"><br>
+            Sobrenome: <br>
+            <input placeholder="Digite Aqui" type="text" name="sobrenome"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha seu genero</legend>
+            <input type="radio" name="genero" value="masculino"> Masculino<br>
+            <input type="radio" name="genero" value="femenino"> Feminino<br>
+            <input type="radio" name="genero" value="outro"> Outros<br>
+        </fieldset>
+        <!-- fieldset serve para maraca o design fazer um agrupamento-->
+        <fieldset>
+            <!-- inserir uma legenda no agrupamento use a tag legend -->
+            <legend>Escolha o Idioma</legend>
+            <input type="checkbox" name="tipo1" value="ingles"> ingles <br>
+            <input type="checkbox" name="tipo2" value="espanhol"> espanhol <br>
+            <input type="checkbox" name="tipo3" value="italiano"> italiano <br>
+            <input type="checkbox" name="tipo4" value="alemao"> alemão <br>
+        </fieldset>
+
+        <!-- SELECT Define um campo tipo drop-down -->
+        <legend>Esolha seu carro</legend>
+        <select name="Carros">
+            <option value="fiesta">Fiesta</option>
+            <option value="City">City</option>
+            <option value="Polo">Polo</option>
+            <option value="hb20">HB20</option>
+        </select>
+        <br>
+        <textarea rows="10" cols="60" name="exemplo">
+        </textarea>
+        
+        <input type="submit" value="enviar dados">
+        <input type="reset" value="limpar">
+
+
+    </form>
+</body>
+
+</html>
