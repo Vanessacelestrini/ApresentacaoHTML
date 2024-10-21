@@ -6,46 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Escolaridade</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+     
+        main, footer {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px; 
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        @media (max-width: 600px) {
+            nav li {
+                display: block; 
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
-
-        <h1>Escolaridade</h1>
-        <ul>
-            <li><a href="sobremim.html">Início</a>
-                <i class="fa fa-home" aria-hidden="true"></i>
-            </li>
-            <li><a href="competencias.html">Competências</a>
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            </li>
-            <li><a href="experiencia.html">Experiência</a>
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-            </li>
-        </ul>
-
+        <h1>Escolaridade e Cursos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="competencias.html">Competências <i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
+                <li><a href="experiencia.html">Experiência <i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
         <hr>
     </header>
     <main>
-        <legend>
-            <font color="#2F4F4F">
-                <h2>Escolaridade e Cursos</h2>
-            </font>
-        </legend>
+        <h2>Escolaridade e Cursos</h2>
         <ul>
-            <font color="#000080">
-                <li>Ensino Médio - Completo</li>
-                <li>Curso Front-End Senai - Concluido</li>
-                <li>Curso Excel Senac - Concluido</li>
-                <li>Curso Python Senac - Em Conclusão</li>
-            </font>
+            <li>Ensino Médio - Completo</li>
+            <li>Curso Front-End Senai - Concluído</li>
+            <li>Curso Excel Senac - Concluído</li>
+            <li>Curso Python Senac - Em Conclusão</li>
         </ul>
     </main>
     <footer>
         <div class="social-icons">
-        </li>
-        <a href="#"><i class="fab fa-github"></i>
-            https://github.com/Vanessacelestrini</a>
+            <a href="#"><i class="fab fa-github"></i> https://github.com/Vanessacelestrini</a>
+        </div>
     </footer>
 </body>
 
