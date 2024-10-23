@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="">
+    <title>Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: rgb(146, 47, 47);
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #7ebadd;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+        }
+
+        input {
+            border-radius: 20px;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            font-size: 16px;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #8bb7e9c5;
+        }
+
+        button {
+            background-color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        h3 {
+            color: #fff;
+            margin: 5px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <h3>Digite seu usuario</h3>
+            <input type="text" placeholder="Usuário" required>
+            <h3>Digite sua senha</h3>
+            <input type="password" placeholder="Senha" required>
+            <br>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
