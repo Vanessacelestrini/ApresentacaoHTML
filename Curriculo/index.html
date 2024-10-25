@@ -1,89 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Sobre Mim</title>
-    
+    <title>Meu Currículo Portfólio</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #2b1212;
-            line-height: 1.6;
+            padding: 25px;
+            background-color: #f4f4f4;
         }
 
         header {
-            background-color: #8d8888;
-            padding: 20px;
             text-align: center;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
         }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
+        nav {
+            text-align: center;
+            margin: 20px;
 
-        nav li {
-            display: inline;
-            margin: 0 15px;
         }
 
         nav a {
-            color: white;
+            margin: 15px;
             text-decoration: none;
-            transition: color 0.3s ease;
+            color: black;
         }
 
-        
+        nav a:hover {
+            text-decoration: underline;
+            color: darkred;
+        }
 
-        main, footer {
+        section {
+            margin: 20px 0;
             padding: 20px;
-            margin: 10px auto;
-            max-width: 800px; 
-            background-color: white;
+            background: rgba(121, 114, 114, 0.562);
             border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
         }
 
         footer {
             text-align: center;
-        }
-
-        @media (max-width: 600px) {
-            nav li {
-                display: block; /
-                margin: 10px 0;
-            }
+            margin-top: 20px;
+            font-size: 15px;
+            color: #777;
         }
     </style>
-
 </head>
 
 <body>
 
+
     <header>
-        <h1>Bem-vindo ao meu site!</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="experiencia.html">Experiências</a></li>
-                <li><a href="competencias.html">Competências</a></li>
-            </ul>
-        </nav>
+        <h1>Vanessa Celestrini</h1>
+        <p>Futuro Programador | Front End & Back End</p>
     </header>
 
-    <main id="conteudo">
-        <p>Aqui você encontrará informações sobre mim.</p>
-    </main>
+    <nav>
+        <a href="experiencia.html">Habilidades</a>
+        <a href="cursos.html">Cursos</a>
+    </nav>
+
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Sou um entusiasta da programação, atualmente cursando formação em desenvolvimento web e buscando
+            oportunidades para aplicar meus conhecimentos e continuar aprendendo.</p>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS e JavaScript</li>
+            <li>Python</li>
+            <li>Excel</li>
+            <li>Java (início de aprendizado)</li>
+            <li>Controle de versão com Git e GitHub</li>
+            <li>Gerenciamento de projetos com Trello</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Cursos</h2>
+        <ul>
+            <li>Curso de Front End - SENAI</li>
+            <li>Curso de Python - SENAC</li>
+            <li>Curso de Excel - SENAC</li>
+            <li>Iniciando curso de Back End Java - SENAC</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projetos</h2>
+        <p>Ainda estou desenvolvendo projetos, mas planejo incluir links para meus trabalhos assim que estiverem
+            prontos.</p>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <p>Email:vanessacelestrini1@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/Vanessacelestrini" target="_blank">github.com/Vanessacelestrini/</a></p>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Todos os direitos reservados.</p>
+        <p>&copy; 2024 Vanessa Celestrini. Todos os direitos reservados.</p>
     </footer>
 
 </body>
