@@ -1,0 +1,56 @@
+<!-- Crie uma pagina que apresente 1 imagem com as seguintes configuraçoes de apresentação
+borda com tamanho 2, 200 pixels de largura e 200 pixels de altura. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem com tamanho definido</title>
+
+    <style>
+        body {
+            background-color: rgb(162, 154, 154);
+        }
+
+        .imagem {
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        button {
+            background: linear-gradient(135deg, darkgoldenrod, gold);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, gold, darkgoldenrod);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imagem">
+        <img src="https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_1200/public/2023-07/dachshund.jpg.webp?itok=2mt6_Uzy"
+            alt="imagem com borda" width="200px" height="200px">
+    </div>
+    <br>
+    <div>
+        <a href="exercicio7.html">
+            <button type="button">Inicio</button>
+        </a>
+    </div>
+</body>
+
+</html>
