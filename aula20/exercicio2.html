@@ -21,6 +21,23 @@
         color: red;
         font-size: large;
     }
+
+    button {
+        background: linear-gradient(135deg, darkgoldenrod, gold);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    button:hover {
+        background: linear-gradient(135deg, gold, darkgoldenrod);
+        transform: scale(1.05);
+    }
 </style>
 
 <body>
@@ -43,6 +60,11 @@
         </ul>
     </div>
 
+    <div>
+        <a href="exercicio7.html">
+            <button type="button">Inicio</button>
+        </a>
+    </div>
 </body>
 
 </html>

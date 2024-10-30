@@ -7,16 +7,43 @@
     <title>Cursos</title>
 
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 25px;
+            background-image: url(Design\ sem\ nome\ \(1\).png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
         section {
             margin: 20px 0;
             padding: 20px;
-            background: rgb(19, 44, 112);
+            background: rgba(65, 57, 57, 0.562);
             border-radius: 50px;
-            letter-spacing: 2px;
             color: wheat;
-
+            letter-spacing: 3px;
         }
 
+        h2 {
+            color: #af3232;
+        }
+
+        button {
+            background-color: #af3232;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #3e0a0a;
+            transform: scale(1.05);
+        }
     </style>
 
 </head>
@@ -31,6 +58,11 @@
             <li>Iniciando curso de Back End Java - SENAC</li>
         </ul>
     </section>
+    <div>
+        <a href="index.html">
+            <button type="button">Home</button>
+        </a>
+    </div>
 </body>
 
 </html>
